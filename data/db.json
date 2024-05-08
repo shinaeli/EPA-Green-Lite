@@ -1,0 +1,32 @@
+{
+  "customerContacts": [
+    {
+      "id": "1444",
+      "name": "Dayo Olakunle",
+      "email": "d_kay@gmail.com",
+      "subject": "Here to Make an Enquiry",
+      "message": "How much does green-tea cost?"
+    },
+    {
+      "id": "1192",
+      "name": "Mary Josephs",
+      "email": "mary_jay@yahoo.com",
+      "subject": "Request For A Purchase ",
+      "message": "I like your products. I was introduced to it by a friend. I need five packs of SolarDiet. Thanks."
+    },
+    {
+      "id": "1342",
+      "message": "I like your products. I was introduced to it by a friend. I need five packs of SolGhum. Thanks.",
+      "name": "David Alabi",
+      "email": "david009@gmail.com",
+      "subject": "Request For A Purchase"
+    },
+    {
+      "id": "398",
+      "name": "sxgskddbsvmshg ",
+      "email": "sdsdhvvhhjmdj@yahoo.com",
+      "subject": "Dsadhsdsj Biusgusgdfs",
+      "message": "dsafjsdhasdusdaasajfd jfkdsag\\dhksjcfgjshgk\\gdhjsjdgcsf cvxbsajdbmnvnmd sdsmh\\dmsgdscjndmj."
+    }
+  ]
+}

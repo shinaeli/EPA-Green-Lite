@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .container {
+    @apply w-[95%] mx-auto py-[20px] pc:w-[98%];
+  }
+  .icon-logo {
+    @apply w-[40%] h-[40%] mx-auto mb-0 fill-green-400 stroke-none;
+  }
+  .icon-title {
+    @apply my-[20px] text-center text-2xl text-gray-700 font-bold;
+  }
+  .icon-container {
+    @apply w-[90%] mx-auto my-[20px] pc:w-[24%] pc:h-[350px] tabs:w-[23%] tabs:h-[500px];
+  }
+  .icon-text {
+    @apply w-[100%] text-[0.9rem] mx-auto my-[20px] text-center text-gray-700 leading-normal;
+  }
+  .icon-link {
+    @apply block w-[25%] mx-auto mb-[10px] p-[8px] text-center text-gray-700 font-bold;
+  }
+  .topics-title {
+    @apply text-green-400 my-[10px] text-left font-semibold;
+  }
+  .topics-description {
+    @apply text-gray-700 my-[10px] text-justify text-[0.8rem] leading-normal;
+  }
+  .topics-link {
+    @apply block w-[20%] p-[8px] text-[0.8rem] text-center text-white bg-gray-700 rounded-[5px] tabs:w-[28%];
+  }
+  .nav-icons {
+    @apply block fill-green-400 stroke-none h-[45px] w-[10%];
+  }
+  .nav-link {
+    @apply text-gray-400 text-2xl text-left;
+  }
+  .form-label {
+    @apply block my-[10px] font-light;
+  }
+  .form-input {
+    @apply block w-[100%] p-[8px] border-gray-400 border-[1px] rounded-[5px] text-green-400 placeholder:text-green-400 placeholder:italic;
+  }
+  .form-message {
+    @apply block w-[100%] h-[150px] p-[10px] border-gray-400 border-[1px] rounded-[5px] text-[0.85rem] text-green-400 placeholder:text-green-400 placeholder:italic;
+  }
+  .form-button {
+    @apply block w-[25%] mt-[20px] p-[8px] text-center text-white font-bold bg-green-400 border-solid border-[1px] rounded-[5px] pc:w-[40%] pc:mx-auto tabs:w-[45%] tabs:mx-auto;
+  }
+  .in-admin-category {
+    @apply text-green-400 hover:text-gray-400;
+  }
+  .search-post-headers {
+    @apply mt-[40px] mb-[15px] text-gray-700;
+  }
+  .search-post-links {
+    @apply block mb-[15px] hover:text-green-400 text-gray-700;
+  }
+  .search-post-sublinks {
+    @apply block mb-[15px] text-green-400 hover:text-gray-700;
+  }
+  .mission-logo {
+    @apply w-[40%] h-[40%] mx-auto mb-0;
+  }
+  .mission-title {
+    @apply my-[20px] text-center text-2xl text-gray-700 font-bold pc:text-left tabs:text-left;
+  }
+  .mission-container {
+    @apply w-[90%] mx-auto my-[20px] pc:w-[32%] pc:h-[180px] pc:flex pc:flex-row pc:justify-between pc:items-start tabs:w-[32%] tabs:flex tabs:flex-row tabs:justify-between tabs:items-center tabs:h-[300px];
+  }
+  .mission-text {
+    @apply w-[90%] mx-auto my-[20px] text-center text-gray-500 leading-normal pc:w-[95%] pc:text-[0.8rem] pc:text-justify tabs:text-[0.8rem];
+  }
+  .about-description {
+    @apply text-gray-400 text-justify font-light leading-snug;
+  }
+  .tab-pc-links {
+    @apply hidden pc:flex pc:flex-row pc:justify-between pc:items-center pc:w-[30%] tabs:flex tabs:flex-row tabs:justify-between tabs:items-center tabs:w-[40%] tabs:animate-greenSliderRight pc:animate-greenSliderRight;
+  }
+  .tab-pc-link {
+    @apply text-gray-400 hover:text-gray-700;
+  }
+  .tab-pc-link.active {
+    @apply text-gray-700 font-semibold;
+  }
+  .back-to-home {
+    @apply block w-[40%] mx-auto mb-[20px] p-[10px] bg-green-400 text-white text-center rounded-[5px] font-bold pc:w-[15%] tabs:w-[30%];
+  }
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
